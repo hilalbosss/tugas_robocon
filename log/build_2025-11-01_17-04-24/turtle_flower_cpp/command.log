@@ -1,0 +1,2 @@
+Invoking command in '/home/hilal/ros2_ws/build/turtle_flower_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hilal/ros2_ws/build/turtle_flower_cpp -- -j8 -l8
+Invoked command in '/home/hilal/ros2_ws/build/turtle_flower_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hilal/ros2_ws/build/turtle_flower_cpp -- -j8 -l8

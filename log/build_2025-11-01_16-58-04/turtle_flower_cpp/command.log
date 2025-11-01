@@ -1,0 +1,4 @@
+Invoking command in '/home/hilal/ros2_ws/build/turtle_flower_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hilal/ros2_ws/src/turtle_flower_cpp -DCMAKE_INSTALL_PREFIX=/home/hilal/ros2_ws/install/turtle_flower_cpp
+Invoked command in '/home/hilal/ros2_ws/build/turtle_flower_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hilal/ros2_ws/src/turtle_flower_cpp -DCMAKE_INSTALL_PREFIX=/home/hilal/ros2_ws/install/turtle_flower_cpp
+Invoking command in '/home/hilal/ros2_ws/build/turtle_flower_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hilal/ros2_ws/build/turtle_flower_cpp -- -j8 -l8
+Invoked command in '/home/hilal/ros2_ws/build/turtle_flower_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hilal/ros2_ws/build/turtle_flower_cpp -- -j8 -l8

@@ -1,0 +1,82 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hilal/ros2_ws/build/turtle_flower_cpp
+[ 50%] [32mBuilding CXX object CMakeFiles/flower_drawer.dir/src/flower_drawer.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/hilal/ros2_ws/src/turtle_flower_cpp/src/flower_drawer.cpp:1[m[K:
+[01m[K/home/hilal/ros2_ws/src/turtle_flower_cpp/src/flower_drawer.cpp:[m[K In member function ‘[01m[Kvoid TurtleFlower::set_pen(bool)[m[K’:
+[01m[K/home/hilal/ros2_ws/src/turtle_flower_cpp/src/flower_drawer.cpp:36:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kthiss[m[K’ was not declared in this scope; did you mean ‘[01m[Kthis[m[K’?
+   36 |             RCLCPP_INFO([01;31m[Kthiss[m[K+->get_logger());
+      |                         [01;31m[K^~~~~[m[K
+[01m[K/home/hilal/ros2_ws/src/turtle_flower_cpp/src/flower_drawer.cpp:36:31:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K->[m[K’ token
+   36 |             RCLCPP_INFO(thiss+[01;31m[K->[m[Kget_logger());
+      |                               [01;31m[K^~[m[K
+[01m[K/home/hilal/ros2_ws/src/turtle_flower_cpp/src/flower_drawer.cpp:36:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   36 |             [01;31m[KRCLCPP_INFO[m[K(thiss+->get_logger());
+      |             [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/hilal/ros2_ws/src/turtle_flower_cpp/src/flower_drawer.cpp:1[m[K:
+[01m[K/home/hilal/ros2_ws/src/turtle_flower_cpp/src/flower_drawer.cpp:36:31:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K->[m[K’ token
+   36 |             RCLCPP_INFO(thiss+[01;31m[K->[m[Kget_logger());
+      |                               [01;31m[K^~[m[K
+[01m[K/home/hilal/ros2_ws/src/turtle_flower_cpp/src/flower_drawer.cpp:36:31:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K->[m[K’ token
+   36 |             RCLCPP_INFO(thiss+[01;31m[K->[m[Kget_logger());
+      |                               [01;31m[K^~[m[K
+[01m[K/home/hilal/ros2_ws/src/turtle_flower_cpp/src/flower_drawer.cpp:36:13:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   36 |             [01;31m[KRCLCPP_INFO[m[K(thiss+->get_logger());
+      |             [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/hilal/ros2_ws/src/turtle_flower_cpp/src/flower_drawer.cpp:40:21:[m[K [01;35m[Kwarning: [m[Kvalue computed is not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   40 |         [01;35m[Krequest-> r == 255[m[K;
+      |         [01;35m[K~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/hilal/ros2_ws/src/turtle_flower_cpp/src/flower_drawer.cpp:41:21:[m[K [01;35m[Kwarning: [m[Kvalue computed is not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   41 |         [01;35m[Krequest-> g == 255[m[K;
+      |         [01;35m[K~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/hilal/ros2_ws/src/turtle_flower_cpp/src/flower_drawer.cpp:42:21:[m[K [01;35m[Kwarning: [m[Kvalue computed is not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   42 |         [01;35m[Krequest-> b == 255[m[K;
+      |         [01;35m[K~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/hilal/ros2_ws/src/turtle_flower_cpp/src/flower_drawer.cpp:43:25:[m[K [01;35m[Kwarning: [m[Kvalue computed is not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   43 |         [01;35m[Krequest-> width == 2[m[K;
+      |         [01;35m[K~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/hilal/ros2_ws/src/turtle_flower_cpp/src/flower_drawer.cpp:44:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct turtlesim::srv::SetPen_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct turtlesim::srv::SetPen_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksetpen[m[K’
+   44 |         request-> [01;31m[Ksetpen[m[K == off;
+      |                   [01;31m[K^~~~~~[m[K
+[01m[K/home/hilal/ros2_ws/src/turtle_flower_cpp/src/flower_drawer.cpp:44:29:[m[K [01;31m[Kerror: [m[K‘[01m[Koff[m[K’ was not declared in this scope
+   44 |         request-> setpen == [01;31m[Koff[m[K;
+      |                             [01;31m[K^~~[m[K
+[01m[K/home/hilal/ros2_ws/src/turtle_flower_cpp/src/flower_drawer.cpp:32:23:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksetpen[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   32 |     void set_pen([01;35m[Kbool setpen[m[K)
+      |                  [01;35m[K~~~~~^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/flower_drawer.dir/build.make:76: CMakeFiles/flower_drawer.dir/src/flower_drawer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/flower_drawer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

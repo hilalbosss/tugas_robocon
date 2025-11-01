@@ -1,0 +1,118 @@
+[0.000000] (-) TimerEvent: {}
+[0.000351] (-) JobUnselected: {'identifier': 'turtle_circle_cpp'}
+[0.000373] (turtle_flower_cpp) JobQueued: {'identifier': 'turtle_flower_cpp', 'dependencies': OrderedDict()}
+[0.000388] (turtle_flower_cpp) JobStarted: {'identifier': 'turtle_flower_cpp'}
+[0.004976] (turtle_flower_cpp) JobProgress: {'identifier': 'turtle_flower_cpp', 'progress': 'cmake'}
+[0.005794] (turtle_flower_cpp) JobProgress: {'identifier': 'turtle_flower_cpp', 'progress': 'build'}
+[0.005811] (turtle_flower_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hilal/ros2_ws/build/turtle_flower_cpp', '--', '-j8', '-l8'], 'cwd': '/home/hilal/ros2_ws/build/turtle_flower_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'hilal'), ('LC_TIME', 'id_ID.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hilal'), ('OLDPWD', '/home/hilal'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'id_ID.UTF-8'), ('SYSTEMD_EXEC_PID', '1265'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hilal/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hilal'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hilal'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ambatron:@/tmp/.ICE-unix/944,unix/ambatron:/tmp/.ICE-unix/944'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'id_ID.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b8534fde_8d15_423a_96eb_823844b72659'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'id_ID.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ASIIF3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hilal/ros2_ws/install/turtle_flower_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'id_ID.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'id_ID.UTF-8'), ('LC_IDENTIFICATION', 'id_ID.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hilal/ros2_ws/build/turtle_flower_cpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'id_ID.UTF-8'), ('LC_PAPER', 'id_ID.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/hilal/ros2_ws/install/turtle_flower_cpp:/opt/ros/humble')]), 'shell': False}
+[0.023267] (turtle_flower_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099846] (-) TimerEvent: {}
+[0.107543] (turtle_flower_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.124234] (turtle_flower_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.125679] (turtle_flower_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.129860] (turtle_flower_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.135701] (turtle_flower_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.142685] (turtle_flower_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.163877] (turtle_flower_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.164853] (turtle_flower_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.199962] (-) TimerEvent: {}
+[0.223487] (turtle_flower_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.254038] (turtle_flower_cpp) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.268855] (turtle_flower_cpp) StdoutLine: {'line': b'-- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[0.300055] (-) TimerEvent: {}
+[0.343984] (turtle_flower_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.350919] (turtle_flower_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[0.353343] (turtle_flower_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/hilal/ros2_ws/build/turtle_flower_cpp\n'}
+[0.377076] (turtle_flower_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/flower_drawer.dir/src/flower_drawer.cpp.o\x1b[0m\n'}
+[0.400170] (-) TimerEvent: {}
+[0.500484] (-) TimerEvent: {}
+[0.600789] (-) TimerEvent: {}
+[0.701110] (-) TimerEvent: {}
+[0.801459] (-) TimerEvent: {}
+[0.901809] (-) TimerEvent: {}
+[1.002134] (-) TimerEvent: {}
+[1.102447] (-) TimerEvent: {}
+[1.202763] (-) TimerEvent: {}
+[1.303105] (-) TimerEvent: {}
+[1.403492] (-) TimerEvent: {}
+[1.503824] (-) TimerEvent: {}
+[1.604150] (-) TimerEvent: {}
+[1.704474] (-) TimerEvent: {}
+[1.804808] (-) TimerEvent: {}
+[1.905138] (-) TimerEvent: {}
+[2.001213] (turtle_flower_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.001455] (turtle_flower_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.001558] (turtle_flower_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.001642] (turtle_flower_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.001781] (turtle_flower_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.001821] (turtle_flower_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.001856] (turtle_flower_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.001892] (turtle_flower_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.001927] (turtle_flower_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.001960] (turtle_flower_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.001994] (turtle_flower_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hilal/ros2_ws/src/turtle_flower_cpp/src/flower_drawer.cpp:1\x1b[m\x1b[K:\n'}
+[2.002038] (turtle_flower_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hilal/ros2_ws/src/turtle_flower_cpp/src/flower_drawer.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid TurtleFlower::set_pen(bool)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.002109] (turtle_flower_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hilal/ros2_ws/src/turtle_flower_cpp/src/flower_drawer.cpp:36:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kthiss\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.002175] (turtle_flower_cpp) StderrLine: {'line': b'   36 |             RCLCPP_INFO(\x1b[01;31m\x1b[Kthiss\x1b[m\x1b[K+->get_logger());\n'}
+[2.002284] (turtle_flower_cpp) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.002355] (turtle_flower_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hilal/ros2_ws/src/turtle_flower_cpp/src/flower_drawer.cpp:36:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.002425] (turtle_flower_cpp) StderrLine: {'line': b'   36 |             RCLCPP_INFO(thiss+\x1b[01;31m\x1b[K->\x1b[m\x1b[Kget_logger());\n'}
+[2.002506] (turtle_flower_cpp) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.002582] (turtle_flower_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hilal/ros2_ws/src/turtle_flower_cpp/src/flower_drawer.cpp:36:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.002661] (turtle_flower_cpp) StderrLine: {'line': b'   36 |             \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(thiss+->get_logger());\n'}
+[2.002731] (turtle_flower_cpp) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.002799] (turtle_flower_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.002859] (turtle_flower_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.002919] (turtle_flower_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.002979] (turtle_flower_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.003025] (turtle_flower_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.003070] (turtle_flower_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.003119] (turtle_flower_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.003162] (turtle_flower_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.003206] (turtle_flower_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.003252] (turtle_flower_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.003295] (turtle_flower_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.003338] (turtle_flower_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hilal/ros2_ws/src/turtle_flower_cpp/src/flower_drawer.cpp:1\x1b[m\x1b[K:\n'}
+[2.003381] (turtle_flower_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hilal/ros2_ws/src/turtle_flower_cpp/src/flower_drawer.cpp:36:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.003425] (turtle_flower_cpp) StderrLine: {'line': b'   36 |             RCLCPP_INFO(thiss+\x1b[01;31m\x1b[K->\x1b[m\x1b[Kget_logger());\n'}
+[2.003471] (turtle_flower_cpp) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.003521] (turtle_flower_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hilal/ros2_ws/src/turtle_flower_cpp/src/flower_drawer.cpp:36:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.003576] (turtle_flower_cpp) StderrLine: {'line': b'   36 |             RCLCPP_INFO(thiss+\x1b[01;31m\x1b[K->\x1b[m\x1b[Kget_logger());\n'}
+[2.003644] (turtle_flower_cpp) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[2.003694] (turtle_flower_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hilal/ros2_ws/src/turtle_flower_cpp/src/flower_drawer.cpp:36:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.003745] (turtle_flower_cpp) StderrLine: {'line': b'   36 |             \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(thiss+->get_logger());\n'}
+[2.003794] (turtle_flower_cpp) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.003841] (turtle_flower_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hilal/ros2_ws/src/turtle_flower_cpp/src/flower_drawer.cpp:40:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvalue computed is not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.003890] (turtle_flower_cpp) StderrLine: {'line': b'   40 |         \x1b[01;35m\x1b[Krequest-> r == 255\x1b[m\x1b[K;\n'}
+[2.003937] (turtle_flower_cpp) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[2.003984] (turtle_flower_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hilal/ros2_ws/src/turtle_flower_cpp/src/flower_drawer.cpp:41:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvalue computed is not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.004033] (turtle_flower_cpp) StderrLine: {'line': b'   41 |         \x1b[01;35m\x1b[Krequest-> g == 255\x1b[m\x1b[K;\n'}
+[2.004080] (turtle_flower_cpp) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[2.004126] (turtle_flower_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hilal/ros2_ws/src/turtle_flower_cpp/src/flower_drawer.cpp:42:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvalue computed is not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.004176] (turtle_flower_cpp) StderrLine: {'line': b'   42 |         \x1b[01;35m\x1b[Krequest-> b == 255\x1b[m\x1b[K;\n'}
+[2.004223] (turtle_flower_cpp) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[2.004270] (turtle_flower_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hilal/ros2_ws/src/turtle_flower_cpp/src/flower_drawer.cpp:43:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvalue computed is not used [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.004318] (turtle_flower_cpp) StderrLine: {'line': b'   43 |         \x1b[01;35m\x1b[Krequest-> width == 2\x1b[m\x1b[K;\n'}
+[2.004365] (turtle_flower_cpp) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.004411] (turtle_flower_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hilal/ros2_ws/src/turtle_flower_cpp/src/flower_drawer.cpp:44:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct turtlesim::srv::SetPen_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct turtlesim::srv::SetPen_Request_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ksetpen\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.004464] (turtle_flower_cpp) StderrLine: {'line': b'   44 |         request-> \x1b[01;31m\x1b[Ksetpen\x1b[m\x1b[K == off;\n'}
+[2.004510] (turtle_flower_cpp) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.005194] (-) TimerEvent: {}
+[2.006449] (turtle_flower_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hilal/ros2_ws/src/turtle_flower_cpp/src/flower_drawer.cpp:44:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Koff\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.006586] (turtle_flower_cpp) StderrLine: {'line': b'   44 |         request-> setpen == \x1b[01;31m\x1b[Koff\x1b[m\x1b[K;\n'}
+[2.006660] (turtle_flower_cpp) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.007963] (turtle_flower_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hilal/ros2_ws/src/turtle_flower_cpp/src/flower_drawer.cpp:32:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksetpen\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.008089] (turtle_flower_cpp) StderrLine: {'line': b'   32 |     void set_pen(\x1b[01;35m\x1b[Kbool setpen\x1b[m\x1b[K)\n'}
+[2.008159] (turtle_flower_cpp) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[2.105319] (-) TimerEvent: {}
+[2.205648] (-) TimerEvent: {}
+[2.305966] (-) TimerEvent: {}
+[2.406289] (-) TimerEvent: {}
+[2.506622] (-) TimerEvent: {}
+[2.606949] (-) TimerEvent: {}
+[2.621221] (turtle_flower_cpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/flower_drawer.dir/build.make:76: CMakeFiles/flower_drawer.dir/src/flower_drawer.cpp.o] Error 1\n'}
+[2.621389] (turtle_flower_cpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/flower_drawer.dir/all] Error 2\n'}
+[2.621431] (turtle_flower_cpp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.622946] (turtle_flower_cpp) CommandEnded: {'returncode': 2}
+[2.628605] (turtle_flower_cpp) JobEnded: {'identifier': 'turtle_flower_cpp', 'rc': 2}
+[2.639085] (-) EventReactorShutdown: {}

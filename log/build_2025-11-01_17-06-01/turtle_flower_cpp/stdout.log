@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target flower_drawer[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/flower_drawer.dir/src/flower_drawer.cpp.o[0m
+[100%] [32m[1mLinking CXX executable flower_drawer[0m
+[100%] Built target flower_drawer
+-- Install configuration: ""
+-- Installing: /home/hilal/ros2_ws/install/turtle_flower_cpp/lib/turtle_flower_cpp/flower_drawer
+-- Set runtime path of "/home/hilal/ros2_ws/install/turtle_flower_cpp/lib/turtle_flower_cpp/flower_drawer" to ""
+-- Installing: /home/hilal/ros2_ws/install/turtle_flower_cpp/share/ament_index/resource_index/package_run_dependencies/turtle_flower_cpp
+-- Installing: /home/hilal/ros2_ws/install/turtle_flower_cpp/share/ament_index/resource_index/parent_prefix_path/turtle_flower_cpp
+-- Installing: /home/hilal/ros2_ws/install/turtle_flower_cpp/share/turtle_flower_cpp/environment/ament_prefix_path.sh
+-- Installing: /home/hilal/ros2_ws/install/turtle_flower_cpp/share/turtle_flower_cpp/environment/ament_prefix_path.dsv
+-- Installing: /home/hilal/ros2_ws/install/turtle_flower_cpp/share/turtle_flower_cpp/environment/path.sh
+-- Installing: /home/hilal/ros2_ws/install/turtle_flower_cpp/share/turtle_flower_cpp/environment/path.dsv
+-- Installing: /home/hilal/ros2_ws/install/turtle_flower_cpp/share/turtle_flower_cpp/local_setup.bash
+-- Installing: /home/hilal/ros2_ws/install/turtle_flower_cpp/share/turtle_flower_cpp/local_setup.sh
+-- Installing: /home/hilal/ros2_ws/install/turtle_flower_cpp/share/turtle_flower_cpp/local_setup.zsh
+-- Installing: /home/hilal/ros2_ws/install/turtle_flower_cpp/share/turtle_flower_cpp/local_setup.dsv
+-- Installing: /home/hilal/ros2_ws/install/turtle_flower_cpp/share/turtle_flower_cpp/package.dsv
+-- Installing: /home/hilal/ros2_ws/install/turtle_flower_cpp/share/ament_index/resource_index/packages/turtle_flower_cpp
+-- Installing: /home/hilal/ros2_ws/install/turtle_flower_cpp/share/turtle_flower_cpp/cmake/turtle_flower_cppConfig.cmake
+-- Installing: /home/hilal/ros2_ws/install/turtle_flower_cpp/share/turtle_flower_cpp/cmake/turtle_flower_cppConfig-version.cmake
+-- Installing: /home/hilal/ros2_ws/install/turtle_flower_cpp/share/turtle_flower_cpp/package.xml
